@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    box-sizing:border-box;
+}
+#slider{
+    width:1140px;
+    position: relative;
+    overflow:hidden;
+    margin:auto;
+    ul{
+        list-style: none;
+        transition: all .3s ease-in-out;
+        padding:0;
+        left:0;
+        display:flex;
+        position: relative;
+        img{
+            width:1140px;
+            height:100%;
+        }
+
+
+    }
+    #prevBtn,#nextBtn{
+        position: absolute;
+        top:50%;
+        transform:translate(-50%);
+        font-size: 28px;
+        color:#fff;
+        cursor:pointer;
+
+    }
+    #prevBtn{
+        left: 7%;
+    }
+    #nextBtn{
+        right:7%;
+    }
+}
